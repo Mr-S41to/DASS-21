@@ -7,7 +7,7 @@ void Ansiedade();
 void Estresse();
 
 int 
-	acalmar, bocaSeca, sentimentoPositivo, dificuldadeAcalmar, iniciativaFazerCoisas, reacaoExagerada, tremor, situacoesPanico, sentirNervoso,
+	acalmar, bocaSeca, sentimentoPositivo, dificuldadeRespirar, iniciativaFazerCoisas, reacaoExagerada, tremor, situacoesPanico, sentirNervoso,
 	esperancaFuturo, agitacao, dificuldadeRelaxar, desanimo, intolerancia, entrarEmPanico, entusiasmo, valorParaPessoas, sensibilidade, 
 	funcionamentoCoracao, assustado, vidaSemSentido
 ; 
@@ -30,9 +30,25 @@ int main(){
 	scanf("%d", &bocaSeca);
 	printf("Salvo %d\n", bocaSeca);
 	
-	printf("\nParecia não conseguir ter nenhum sentimento positivo \n");
+	printf("\nParecia não conseguir ter nenhum sentimento positivo? \n");
 	scanf("%d", &sentimentoPositivo);
 	printf("Salvo %d\n", sentimentoPositivo);
+	
+	printf("\nSenti dificuldade em respirar (ex. respiração excessivamente rápida, falta de ar, na ausência de atividades física)? \n");
+	scanf("%d", &dificuldadeRespirar);
+	printf("Salvo %d\n", dificuldadeRespirar);
+	
+	printf("\nTive dificuldade em tomar iniciativa para fazer as coisas? \n");
+	scanf("%d", &iniciativaFazerCoisas);
+	printf("Salvo %d\n", iniciativaFazerCoisas);
+	
+	printf("\nTive a tendência de reagir de forma exagerada a situações \n");
+	scanf("%d", &reacaoExagerada);
+	printf("Salvo %d\n", reacaoExagerada);
+	
+	printf("\nSenti tremores (ex. nas mãos)? \n");
+	scanf("%d", &tremor);
+	printf("Salvo %d \n", tremor);
 	
 	return 0;
 }
