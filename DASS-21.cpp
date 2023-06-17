@@ -9,15 +9,7 @@ int
 ; 
 
 void Depressao();
-void Ansiedade(
-	int bocaSeca, 
-	int dificuldadeRespirar, 
-	int tremor, 
-	int sentirRidiculo, 
-	int entrarPanico, 
-	int funcionamentoCoracao, 
-	int assustado 
-);
+void Ansiedade();
 void Estresse();
 
 int main(){
