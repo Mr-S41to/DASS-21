@@ -139,7 +139,7 @@ int main(){
 	estresse = estresse*2;
 	
 	printf("\nPontos em ansiedade: %d \n", ansiedade);
-	if(ansiedade < 7){
+	if(ansiedade <= 7){
 		printf("Normal ou leve. \n");
 	}
 	if(ansiedade >= 8 && ansiedade <= 9){
@@ -156,7 +156,7 @@ int main(){
 	}
 	
 	printf("\nPontos em depressão: %d \n", depressao);
-	if(depressao < 9){
+	if(depressao <= 9){
 		printf("Normal ou leve. \n");
 	}
 	if(depressao >= 10 && depressao <= 13){
@@ -173,7 +173,7 @@ int main(){
 	}
 	
 	printf("\nPontos em estresse: %d \n", estresse);
-	if(estresse < 14){
+	if(estresse <= 14){
 		printf("Normal ou leve. \n");
 	}
 	if(estresse >= 15 && estresse <= 18){
